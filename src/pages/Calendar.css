@@ -1,0 +1,29 @@
+.calendar {
+  padding: 20px;
+  background: #f4faff;
+}
+.calendar-title {
+  color: #0077b6;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+.calendar-day {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 10px;
+  transition: transform 0.2s;
+}
+.calendar-day:hover {
+  transform: scale(1.05);
+  background: #e0f7fa;
+}
+.highlight {
+  background: #b2ebf2;
+  font-weight: bold;
+}
